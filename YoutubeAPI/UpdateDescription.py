@@ -1,14 +1,11 @@
-import os
 import google_auth_oauthlib.flow 
 import googleapiclient.discovery 
 import googleapiclient.errors
-import pprint
 from time import sleep
 
 vid = 'clY8cSZbH5s'
 scopes = ['https://www.googleapis.com/auth/youtube.force-ssl']        
 
-os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 api_service_name = 'youtube'
 api_version = 'v3'
 client_secret = '../client_secret.json'
