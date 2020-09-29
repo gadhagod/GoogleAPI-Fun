@@ -15,7 +15,7 @@ if not cred or cred.invalid:
 service = build('drive', 'v2', http=cred.authorize(Http()))
 files = service.files().list().execute().get('items', [])
 
-title = 'GadhaGod Logo Mini'
+title = input('File name: ')
 
 for f in files:
     if (f['title']) == title:
