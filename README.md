@@ -40,4 +40,4 @@ At the moment, only a few APIs are used in this repository, but many more are co
 <h3>Feedback and Contributions</h3>
 If you have any suggestions, questions, or bugs, please open an issue. If you want any code changes, please open a pull request. Feedback is greatly appreciated.
 
-<p align="center"><a href="http://gadhagod.repl.co/"><img src="images/Logo.png"></a></p>
+<p align="center"><a href="http://gadhagod.repl.co/"><img src="images/Logo.png" legnth=40% width=40%></a></p>
