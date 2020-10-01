@@ -8,12 +8,12 @@ The Google API allows you to interact with Google services through code. This le
 You must have a google account and pip installed. <br> 
 Start by heading to the <a href="https://console.developers.google.com">developer console</a> and click <kbd>Select a project</kbd> on the top right of the page.
 
-<img src="images/NewProject.png">
+<br><img src="images/NewProject.png"><br>
 
 Click <kbd>New Project</kbd> and name it. Hit <kbd>CREATE</kbd>.<br> 
 Now your project is created, but we have to add the APIs we want to use. Click <kbd>Library</kbd> on the left of the page.
 
-<img src="images/Library.png">
+<br><img src="images/Library.png"><br>
 
 Add the APIs you will use. 
 
@@ -21,15 +21,15 @@ Add the APIs you will use.
 The Google API uses OAuth to authorize access to project. This can be a painful proccess without guidance, because the official docs are pretty lousy.<br>
 Click <kbd>Credentials</kbd> on the left of the page on your developer console and click <kbd>CREATE CREDENTIALS</kbd>. Select <kbd>OAuth Client ID</kbd> and select <kbd>Desktop app</kbd> as your application type.
 
-<img src="images/DesktopApp.png">
+<br><img src="images/DesktopApp.png"><br>
 
 Name your credentials and hit <kbd>create</kbd>.<br> Now download the credentials' json file and move it to to your cloned repository. <br>
 
-<img src="images/DownloadCreds.png">
+<br><img src="images/DownloadCreds.png"><br>
 
 You will also need to authorize acess to your google account. For the Youtube API, you instructed to visit a link where you authorize access. If you get the following screen: 
 
-<img src="images/NotVerified.png">
+<br><img src="images/NotVerified.png"><br>
 
 Click <kbd>Advanced</kbd> and <kbd>Go to {project name}</kbd> You should recieve a code, which you paste into your shell.<br>
 If you are using any of the other APIs, you will automatically be directed to a localhost, where you sign in to your account.
@@ -40,4 +40,4 @@ At the moment, only a few APIs are used in this repository, but many more are co
 <h3>Feedback and Contributions</h3>
 If you have any suggestions, questions, or bugs, please open an issue. If you want any code changes, please open a pull request. Feedback is greatly appreciated.
 
-<a href="default.asp"><img src="Logo.png"></a>
+<p align="center"><a href="http://gadhagod.repl.co/"><img src="images/Logo.png"></a></p>
