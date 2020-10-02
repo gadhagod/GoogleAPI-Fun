@@ -45,9 +45,6 @@ def main():
     message['from'] = sender
     message['subject'] = subject
 
-#    msg = MIMEText(message_text)
- #   message.attach(msg)
-
     content_type, encoding = mimetypes.guess_type(file)
     
     if content_type is None or encoding is not None:
@@ -70,7 +67,7 @@ def main():
         msg = MIMEBase(main_type, sub_type)
         msg.set_payload(fp.read())
         fp.close()
-#    filename = os.path.basename(file)
+
     msg.add_header('Content-Disposition', 'attachment', filename=file)
     message.attach(msg)
     
