@@ -27,7 +27,7 @@ Name your credentials and hit <kbd>create</kbd>.<br> Now download the credential
 
 <br><img src="images/DownloadCreds.png"><br>
 
-You will also need to authorize acess to your google account. For the Youtube API, you instructed to visit a link where you authorize access. If you get the following screen: 
+You will also need to authorize acess to your google account. For the Youtube API, you will be instructed to visit a link where you authorize access. If you get the following screen: 
 
 <br><img src="images/NotVerified.png"><br>
 
